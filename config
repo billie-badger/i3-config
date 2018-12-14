@@ -222,3 +222,5 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 exec_always feh --bg-scale /home/billie-badger/Pictures/bg2.jpg
+exec --no-startup-id synclient NaturalScrolling=1 VertScrollDelta=-113
+
