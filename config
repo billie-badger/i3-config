@@ -164,7 +164,7 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-set $bg-color 	         #333333
+set $bg-color 	         #000000
 set $inactive-bg-color   #272822
 set $text-color          #66D9EF
 set $inactive-text-color #676E7D
@@ -200,7 +200,7 @@ bar {
 }
 
 # Custom Bindings
-bindsym $mod+shift+x exec ~/lock.sh$
+bindsym $mod+shift+x exec ~/lock.sh
 bindsym $mod+c exec google-chrome
 
 
@@ -222,5 +222,5 @@ bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
-exec_always feh --bg-scale /home/billie-badger/Pictures/wallpapers/Vibrant/3d.jpg
+exec_always feh --bg-scale /home/billie-badger/Pictures/wallpapers/Landscapes/landscape_32.jpg
 exec_always --no-startup-id synclient NaturalScrolling=1 VertScrollDelta=-113
